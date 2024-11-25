@@ -11,12 +11,13 @@ const config: Config = {
   auth: {
     // Enable password protection for your instance.
     // Set challenge to true to require users to log in.
-    challenge: false,
+    challenge: true,
 
     // Format: username: "password",
     // IMPORTANT: Replace default credentials before deployment
     users: {
-      interstellar: "password",
+      percusion: "rimshot",
+      wisp: "funi",
     },
   },
 };
